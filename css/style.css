@@ -311,10 +311,11 @@ footer {
   position: fixed;
   bottom: 20px; right: 20px;
   height: 40px; width: 40px;
-  border-radius: 100%;
+  border-radius: 50%;
   background-color: #8080BE;
   box-shadow: 0px 2px 5px black;
   text-align: center;
+  z-index: 9999;
 }
 
 .absolute span {
@@ -325,4 +326,59 @@ footer {
 
 .kicker p {
   color: white;
+}
+footer {
+  text-align: center;
+  height: 250px;
+}
+
+.last-block {
+display: inline-block;
+margin: 0 auto;
+padding: 20px;
+padding-top: 50px;
+padding-bottom: 0px;
+}
+
+
+.last-block>ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.last-block ul li {
+  list-style: none;
+  text-align: left;
+  color: DimGray;
+  line-height: 2;
+  margin-right: 50px;
+}
+
+.last-block a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.last-block {
+  width: 500px;
+}
+
+.white {
+  color: #fff!important;
+}
+
+#copy {
+  color: rgba(255, 255, 255, 0.5);;
+  text-align: left;
+  font-size: 12px;
+}
+
+.last-block p {
+  max-width: 60%;
+}
+
+.last-block img {
+  position: relative;
+  left: 140px;
+  bottom: 38px;
 }
