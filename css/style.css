@@ -83,7 +83,7 @@ nav {
   width: 100%;
   background-color: #fff;
   text-align: center;
-  border-bottom: 1px solid DimGray;
+  border-bottom: 2px solid rgba(204, 204, 204, 0.5);
 }
 
 .panel img {
@@ -94,7 +94,7 @@ nav {
   display: inline-block;
   width: 32.3333333%;
   margin-top: 50px;
-  border-left: 2px solid #CCCCCC;
+  border-left: 2px solid rgba(204, 204, 204, 0.8);
 }
 
 .block2 .panel:first-of-type {
@@ -108,4 +108,48 @@ nav {
 
 .panel p {
   font-size: 15px;
+}
+
+
+.block3 {
+  height: 280px;
+  width: 100%;
+
+}
+
+.block3 {
+  text-align: center;
+  background-color: #F6F9FB;
+}
+
+.padded>h1 {
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: 300;
+}
+
+.padded {
+  padding-top: 30px;
+  color: DimGray;
+}
+
+.pricing {
+  display: inline-block;
+  width: 299px;
+}
+
+.pricing>h1 {
+  float: left;
+  font-size: 60px;
+  font-weight: 300;
+  color: #8080be;
+  position: relative;
+  bottom: 22px;
+}
+.pricing>h2 {
+  margin-bottom: 0;
+  line-height: 1.7;
+}
+.pricing>p {
+  margin-top: 0;
 }
